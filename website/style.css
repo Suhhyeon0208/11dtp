@@ -40,10 +40,10 @@ h2{
 }
 /* nice big font on a banner style background */
 .topic-title{
-    color: rgb(171, 236, 169);
-    font-size: 2em;
+    color: rgb(#f2cbde);
+    font-size: 1em;
     padding: 0.1em 3em;
-    background-color: rgb(245, 165, 154);
+    background-color: rgb(#FAEDCB);
     text-align: center;
 }
 
