@@ -7,6 +7,7 @@ html {
     /* The Font Family- Really important!! */
     font-family: Arial, sans-serif;
     box-sizing: border-box;
+    background-color: #FAEDCB;
 }
 
 /* reset for images to ensure they ar 100% of the parent container width */
@@ -24,7 +25,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     position: relative;
 }
@@ -59,26 +60,11 @@ h2{
 }
 
 /* Styling for the individual topic cards rounded edges background color and a drop shadow */
-.topic-card{
-    background-color: rgb(71, 71, 71);
-    color: white;
-    padding: 1em;
-    border-radius: 0.5em;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-}
-
-/* Styling for the topic card titles */
-.topic-card-text{
-    font-size: 1.5em;
-    margin-bottom: 0.5em;
-    /* center align text */
-    text-align: center;
-}
 
 
 /* Styling for a footer section to take a bit of spcae at the bottom of the page */
 .footer{
-    background-color: rgb(247, 241, 165);
+    background-color:#eee4cb;
     color: rgb(0, 0, 0);
     text-align: right;
     padding: 4em 4em;
@@ -119,7 +105,7 @@ nav ul{
     background-color: #ffa69e;
   }
 
-  .Imagecreation{
+  .imagecreation{
     background-image: url('image/placeholder.jpg');
     height: 25vh;
     background-size: cover;
@@ -138,18 +124,20 @@ nav ul{
     display: inline-block;
     font-size: 1rem;
     display: block;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
-section{
-  background-color: #f2cbde;
+
+
+/* Styling for the topic card titles */
+.topic-card-text{
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    /* center align text */
+    text-align: center;
 }
-
-
-
-
 
 
 
